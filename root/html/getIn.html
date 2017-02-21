@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jesubots</title>
+    <link href="../assets/jesubot.css" rel="stylesheet" type="text/css">
+    <link href="../assets/img/shield_rhs_rgb.jpg" rel="icon">
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+        return t;
+            }(document, "script", "twitter-wjs"));
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>  
+            <div class="jesuLogo">
+                <a id="logo" href="http://jesubots.org">
+                    <img id=jesuPic alt="Jesubot Robotics" src="../assets/img/robotics_logo.jpg">
+                </a>
+            </div> 
+            <div class="jesuNav">
+                <nav>
+                    <ul class="jb-menu">  
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn" href="../index.html">Jesubots</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="about.html">Who We Are</a>
+                               <a href="team.html">Our Team</a>
+                               <a href="mission.html">Mission</a>
+                               <a href="outreach.html">Outreach</a>
+                           </div>
+                       </li>
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn">This Season</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="schedule.html">Schedule</a>
+                               <a href="robot.html">Our Robots</a>
+                           </div>
+                       </li>
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn">Our Partners</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="partners.html">Sponsors</a>
+                               <a href="getIn.html">Business Plan</a>
+                           </div>
+                       </li>
+                       <li class="navPos">
+                           <a class="menu-item" href="first.html"><i>FIRST®</i></a>
+                       </li>
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn">Media</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="offPho.html">Offseason Photos</a>
+                               <a href="compPho.html">Competition Photos</a>
+                               <a href="outPho.html">Outreach Photos</a>
+                               <a href="video.html">Video</a>
+                           </div>
+                       </li>
+                       <li class="navPos">
+                           <a class="menu-item" href="resources.html">Resources</a>
+                       </li>
+                    </ul>
+                </nav>
+            </div>
+       </header>
+       <div id="businessPlan">
+       		<div id="bp-head">
+       			<h1 id="bp-title">Our Business Plan</h1>
+       		</div>
+       		<iframe src="https://docs.google.com/document/d/1KVg8czXgU9-9C-qtrrMOGtf7EkIFNv3_-UiEWgX4KRA/pub?embedded=true" class="businessDoc"></iframe>
+       </div>
+    </div>
+    <footer>
+       <div class="mainBlock">
+           <div class="contactFoot">
+               <h6 id="contactFoot-head">CONTACT US</h6>
+               <a href="https://www.rockhursths.edu"><img id="contactFoot-image" src="../assets/img/rhs_logo.jpg" alt="Rockhurst High School" width="300px"; height="80px";/></a>
+               <h6 id="contactFoot-foot">Rockhurst High School Robotics<br>9301 State Line Road<br> Kansas City, MO 64114-3299</h6>
+           </div>
+           <div id="mapSect">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.4285879728654!2d-94.60753958839508!3d38.959880590296194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0e9201e40a83d%3A0xa55e3c2ae47ad70c!2sRockhurst+High+School!5e0!3m2!1sen!2sus!4v1483995648401" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>           
+           </div>
+           <div id="firstFoot">
+               <a href="http://www.firstinspires.org/"><img src="../assets/img/FIRST_logo.png" alt="FIRST®" width="170px" height="120px"/></a>
+           </div>
+       </div>
+       <div class="bottomBlock">
+           <div class="bottomCopyPiece">
+               <p id="copyrightSect">©Copyright 2017 Jesubots. All Rights Reserved.</p>
+           </div>
+           <div class="socialFoot-twitter">
+               <a class="twitter-follow-button" href="https://twitter.com/jesubots" data-show-count="false" data-show-screen-name="false">Follow</a>
+           </div>
+           <div class="socialFoot-facebook">
+               <div class="fb-follow" data-href="https://www.facebook.com/The-Jesubots-1574267276128955/" data-layout="button" data-size="small" data-show-faces="true"></div>
+           </div>
+       </div>
+   </footer>
+</body>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jesubots</title>
+    <link href="../assets/jesubot.css" rel="stylesheet" type="text/css">
+    <link href="../assets/img/shield_rhs_rgb.jpg" rel="icon">
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+        return t;
+            }(document, "script", "twitter-wjs"));
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>  
+            <div class="jesuLogo">
+                <a id="logo" href="http://jesubots.org">
+                    <img id=jesuPic alt="Jesubot Robotics" src="../assets/img/robotics_logo.jpg">
+                </a>
+            </div> 
+            <div class="jesuNav">
+                <nav>
+                    <ul class="jb-menu">  
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn" href="../index.html">Jesubots</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="about.html">Who We Are</a>
+                               <a href="team.html">Our Team</a>
+                               <a href="mission.html">Mission</a>
+                               <a href="outreach.html">Outreach</a>
+                           </div>
+                       </li>
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn">This Season</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="schedule.html">Schedule</a>
+                               <a href="robot.html">Our Robots</a>
+                           </div>
+                       </li>
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn">Our Partners</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="partners.html">Sponsors</a>
+                               <a href="getIn.html">Business Plan</a>
+                           </div>
+                       </li>
+                       <li class="navPos">
+                           <a class="menu-item" href="first.html"><i>FIRST®</i></a>
+                       </li>
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn">Media</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="offPho.html">Offseason Photos</a>
+                               <a href="compPho.html">Competition Photos</a>
+                               <a href="outPho.html">Outreach Photos</a>
+                               <a href="video.html">Video</a>
+                           </div>
+                       </li>
+                       <li class="navPos">
+                           <a class="menu-item" href="resources.html">Resources</a>
+                       </li>
+                    </ul>
+                </nav>
+            </div>
+       </header>
+       <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+       <div class="teamDivisions-body">
+           <div class="teamProfiles-head">
+               <h1 id="teamProfiles-title">Team Divisions</h1>
+               <div id="teamSections">
+                    <div class="teamDivs active-teamSections" id="teamDiv-x1">General</div>
+                    <div class="teamDivs" id="teamDiv-x2">Design</div>
+                    <div class="teamDivs" id="teamDiv-x3">Build</div>
+                    <div class="teamDivs" id="teamDiv-x4">Software</div>
+                    <div class="teamDivs" id="teamDiv-x5">PR</div>
+                    <div class="teamDivs" id="teamDiv-x6">Scouting</div>
+                </div>
+                <div id="displays">
+                    <div class="hide" id="hideteamDiv-x1">
+                        <div class="generalTeam">THE JESUBOTS</div>
+                        <div class="generalPhotos">
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Ethan Barinowski">
+                                <div class="userProfile">- Ethan Barinowski -<br>Sophomore<br>Software Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/cordes.JPG" alt="AJ Cordes">
+                                <div class="userProfile">-- AJ Cordes --<br>Junior<br>Build and Design</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Max Goeke">
+                                <div class="userProfile">-- Max Goeke --<br>Sophomore<br>Software Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/michaelG.JPG" alt="Michael Guerra-York">
+                                <div class="userProfile">Michael Guerra-York<br>Freshman<br>Software Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/henryH.jpg" alt="Henry Heese">
+                                <div class="userProfile">-- Henry Heese --<br>Sophomore<br>Design and Software</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/loganH.jpg" alt="Logan Hoss">
+                                <div class="userProfile">-- Logan Hoss --<br>Freshman<br>Build and Software</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/joeHutch.jpg" alt="Joe Hutchison">
+                                <div class="userProfile">-- Joe Hutchison --<br>Sophomore<br>Design Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/benK.jpg" alt="Ben Keefe">
+                                <div class="userProfile">-- Ben Keefe --<br>Freshman<br>Software Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/davidK.jpg" alt="David King">
+                                <div class="userProfile">-- David King --<br>Freshman<br>Design Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/coleLan.JPG" alt="Cole Lanning">
+                                <div class="userProfile">-- Cole Lanning --<br>Junior<br>Design Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Grey Lawson">
+                                <div class="userProfile">-- Grey Lawson --<br>Sophomore<br>Design Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Sam Lee">
+                                <div class="userProfile">-- Sam Lee --<br>Senior<br>Scouting</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Brian Medina">
+                                <div class="userProfile">-- Brian Medina --<br>Sophomore<br>Public Relations</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/ajM.jpg" alt="Aj Meyer">
+                                <div class="userProfile">-- AJ Meyer --<br>Sophomore<br>Public Relations</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/salN.jpg" alt="Sal Nigro">
+                                <div class="userProfile">-- Sal Nigro --<br>Sophomore<br>Design Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/rozell.jpg" alt="Joseph Rozell">
+                                <div class="userProfile">-- Joseph Rozell --<br>Sophomore<br>Build and Design</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/gradyS.JPG" alt="Grady Schmitz">
+                                <div class="userProfile">-- Grady Schmitz --<br>Sophomore<br>Design Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/coleV.PNG" alt="Cole Vacek">
+                                <div class="userProfile">-- Cole Vacek --<br>Freshman<br>Public Relations</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/veddar.JPG" alt="Ross Veddar">
+                                <div class="userProfile">-- Ross Veddar --<br>Junior<br>Public Relations</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mark Watz">
+                                <div class="userProfile">-- Mark Watz --<br>Sophomore<br>Build Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Ross Wojcik">
+                                <div class="userProfile">-- Ross Wojcik --<br>Sophomore<br>Software Team</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mr. Steve Barinowski">
+                                <div class="userProfile">Steve Barinowski<br>_____<br>Software Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/mrHoffman.JPG" alt="Mr. Scott Hoffman">
+                                <div class="userProfile">Mr. Scott Hoffman<br>_____<br>Mechanical Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/mrLanning.JPG" alt="Mr. David Lanning">
+                                <div class="userProfile">Mr. David Lanning<br>_____<br>Electrical Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mr. ">
+                                <div class="userProfile">Mr. John Meyer<br>_____<br>Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mr. Tim Nendick">
+                                <div class="userProfile">Mr. Tim Nendick<br>_____<br>Coach</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/mrWilcox.JPG" alt="Mr. Andy Wilcox">
+                                <div class="userProfile">Mr. Andy Wilcox<br>_____<br>Head Coach</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Grey Lawson">
+                                <div class="userProfile">Mr. Paul Winkeler<br>_____<br>Coach</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hide" id="hideteamDiv-x2">
+                        <div class="designTeam">OUR DESIGN TEAM</div>
+                        <div class="designPhotos">
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/mrLanning.JPG" alt="Mr. David Lanning">
+                                <div class="userProfile">Mr. David Lanning<br>_____<br>CAD Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mr. ">
+                                <div class="userProfile">Mr. John Meyer<br>_____<br>Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/coleLan.JPG" alt="Cole Lanning">
+                                <div class="userProfile">-- Cole Lanning --<br>Head of Design<br>CAD Modeling</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/gradyS.JPG" alt="Grady Schmitz">
+                                <div class="userProfile">-- Grady Schmitz --<br>CAD Modeling<br>Prototyping</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/joeHutch.jpg" alt="Joe Hutchison">
+                                <div class="userProfile">-- Joe Hutchison --<br>CAD Modeling<br>Prototyping</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/davidK.jpg" alt="David King">
+                                <div class="userProfile">-- David King --<br>CAD Modeling<br>Prototyping</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/rozell.jpg" alt="Joseph Rozell">
+                                <div class="userProfile">-- Joseph Rozell --<br>CAD Modeling<br>Prototyping</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/cordes.JPG" alt="AJ Cordes">
+                                <div class="userProfile">-- AJ Cordes --<br>CAD Modeling<br>Prototyping</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/henryH.jpg" alt="Henry Heese">
+                                <div class="userProfile">-- Henry Heese --<br>CAD Modeling</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/salN.jpg" alt="Sal Nigro">
+                                <div class="userProfile">-- Sal Nigro --<br>CAD Modeling</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Grey Lawson">
+                                <div class="userProfile">-- Grey Lawson --<br>CAD Modeling</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hide" id="hideteamDiv-x3">
+                        <div class="buildTeam">OUR BUILD TEAM</div>
+                        <div class="buildPhotos">
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/mrHoffman.JPG" alt="Mr. Scott Hoffman">
+                                <div class="userProfile">Mr. Scott Hoffman<br>_____<br>Mechanical Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/mrLanning.JPG" alt="Mr. David Lanning">
+                                <div class="userProfile">Mr. David Lanning<br>_____<br>Mechanical Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mr. ">
+                                <div class="userProfile">Mr. John Meyer<br>_____<br>Mechanical Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/cordes.JPG" alt="AJ Cordes">
+                            <div class="userProfile">-- AJ Cordes --<br>Head of Build</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/joeHutch.jpg" alt="Joe Hutchison">
+                                <div class="userProfile">-- Joe Hutchison --<br>Builder<br>Prototyping</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/gradyS.JPG" alt="Grady Schmitz">
+                                <div class="userProfile">-- Grady Schmitz --<br>Builder<br>Prototyping</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/loganH.jpg" alt="Logan Hoss">
+                                <div class="userProfile">-- Logan Hoss --<br>Prototyping</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/rozell.jpg" alt="Joseph Rozell">
+                                <div class="userProfile">-- Joseph Rozell --<br>Prototyping</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mark Watz">
+                                <div class="userProfile">-- Mark Watz --<br>Prototyping</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hide" id="hideteamDiv-x4">
+                        <div class="softwareTeam">OUR SOFTWARE TEAM</div>
+                        <div class="softwarePhotos">
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mr. Steve Barinowski">
+                                <div class="userProfile">Steve Barinowski<br>_____<br>Software Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Ethan Barinowski">
+                                <div class="userProfile">- Ethan Barinowski -<br>Head Programmer</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Max Goeke">
+                                <div class="userProfile">-- Max Goeke --<br>Head of Web Design</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Ross Wojcik">
+                                <div class="userProfile">-- Ross Wojcik --<br>Programmer</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/benK.jpg" alt="Ben Keefe">
+                                <div class="userProfile">-- Ben Keefe --<br>Programmer</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/michaelG.JPG" alt="Michael Guerra-York">
+                                <div class="userProfile">Michael Guerra-York<br>Programmer</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/henryH.jpg" alt="Henry Heese">
+                                <div class="userProfile">-- Henry Heese --<br>Programmer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hide" id="hideteamDiv-x5">
+                        <div class="prTeam">OUR PR TEAM</div>
+                        <div class="prPhotos">
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mr. ">
+                                <div class="userProfile">Mr. John Meyer<br>_____<br>Mentor</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/ajM.jpg" alt="Aj Meyer">
+                                <div class="userProfile">-- AJ Meyer --<br>Project Manager<br>Head of PR</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/coleV.PNG" alt="Cole Vacek">
+                                <div class="userProfile">-- Cole Vacek --<br>Asst. Project Manager</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Brian Medina">
+                                <div class="userProfile">-- Brian Medina --<br>Communications</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/salN.jpg" alt="Sal Nigro">
+                                <div class="userProfile">-- Sal Nigro --<br>Communications</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/veddar.JPG" alt="Ross Veddar">
+                                <div class="userProfile">-- Ross Veddar --<br>Consultant</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hide" id="hideteamDiv-x6">
+                        <div class="scoutingTeam">OUR SCOUTING TEAM</div>
+                        <div class="scoutingPhotos">
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Sam Lee">
+                                <div class="userProfile">-- Sam Lee --<br>Head of Scouting</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/michaelG.JPG" alt="Michael Guerra-York">
+                                <div class="userProfile">Michael Guerra-York<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/henryH.jpg" alt="Henry Heese">
+                                <div class="userProfile">-- Henry Heese --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/benK.jpg" alt="Ben Keefe">
+                                <div class="userProfile">-- Ben Keefe --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/davidK.jpg" alt="David King">
+                                <div class="userProfile">-- David King --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Grey Lawson">
+                                <div class="userProfile">-- Grey Lawson --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Brian Medina">
+                                <div class="userProfile">-- Brian Medina --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/salN.jpg" alt="Sal Nigro">
+                                <div class="userProfile">-- Sal Nigro --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/rozell.jpg" alt="Joseph Rozell">
+                                <div class="userProfile">-- Joseph Rozell --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/coleV.PNG" alt="Cole Vacek">
+                                <div class="userProfile">-- Cole Vacek --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/veddar.JPG" alt="Ross Veddar">
+                                <div class="userProfile">-- Ross Veddar --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Mark Watz">
+                                <div class="userProfile">-- Mark Watz --<br>Competition Scout</div>
+                            </div>
+                            <div class="userBlock">
+                                <img class="userPhoto" src="../assets/img/chesty-logo.png" alt="Ross Wojcik">
+                                <div class="userProfile">-- Ross Wojcik --<br>Competition Scout</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <div class="teamProfiles-pictures"></div>
+       </div>
+    </div> 
+    <script src="../assets/team.js"></script>
+    <footer>
+       <div class="mainBlock">
+           <div class="contactFoot">
+               <h6 id="contactFoot-head">CONTACT US</h6>
+               <a href="https://www.rockhursths.edu"><img id="contactFoot-image" src="../assets/img/rhs_logo.jpg" alt="Rockhurst High School" width="300px"; height="80px";/></a>
+               <h6 id="contactFoot-foot">Rockhurst High School Robotics<br>9301 State Line Road<br> Kansas City, MO 64114-3299</h6>
+           </div>
+           <div id="mapSect">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.4285879728654!2d-94.60753958839508!3d38.959880590296194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0e9201e40a83d%3A0xa55e3c2ae47ad70c!2sRockhurst+High+School!5e0!3m2!1sen!2sus!4v1483995648401" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>           
+           </div>
+           <div id="firstFoot">
+               <a href="http://www.firstinspires.org/"><img src="../assets/img/FIRST_logo.png" alt="FIRST®" width="170px" height="120px"/></a>
+           </div>
+       </div>
+       <div class="bottomBlock">
+           <div class="bottomCopyPiece">
+               <p id="copyrightSect">©Copyright 2017 Jesubots. All Rights Reserved.</p>
+           </div>
+           <div class="socialFoot-twitter">
+               <a class="twitter-follow-button" href="https://twitter.com/jesubots" data-show-count="false" data-show-screen-name="false">Follow</a>
+           </div>
+           <div class="socialFoot-facebook">
+               <div class="fb-follow" data-href="https://www.facebook.com/The-Jesubots-1574267276128955/" data-layout="button" data-size="small" data-show-faces="true"></div>
+           </div>
+       </div>
+   </footer>
+</body>

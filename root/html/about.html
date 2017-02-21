@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jesubots</title>
+    <link href="../assets/jesubot.css" rel="stylesheet" type="text/css">
+    <link href="../assets/img/shield_rhs_rgb.jpg" rel="icon">
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+        return t;
+            }(document, "script", "twitter-wjs"));
+    </script>
+    <script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>  
+            <div class="jesuLogo">
+                <a id="logo" href="http://jesubots.org">
+                    <img id=jesuPic alt="Jesubot Robotics" src="../assets/img/robotics_logo.jpg">
+                </a>
+            </div> 
+            <div class="jesuNav">
+                <nav>
+                    <ul class="jb-menu">  
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn" href="../index.html">Jesubots</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="about.html">Who We Are</a>
+                               <a href="team.html">Our Team</a>
+                               <a href="mission.html">Mission</a>
+                               <a href="outreach.html">Outreach</a>
+                           </div>
+                       </li>
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn">This Season</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="schedule.html">Schedule</a>
+                               <a href="robot.html">Our Robots</a>
+                           </div>
+                       </li>
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn">Our Partners</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="partners.html">Sponsors</a>
+                               <a href="getIn.html">Business Plan</a>
+                           </div>
+                       </li>
+                       <li class="navPos">
+                           <a class="menu-item" href="first.html"><i>FIRST®</i></a>
+                       </li>
+                       <li class="navPos jesubotsDrop">
+                           <a class="menu-item dropbtn">Media</a>
+                           <div class="jesubotsDrop-content">
+                               <a href="offPho.html">Offseason Photos</a>
+                               <a href="compPho.html">Competition Photos</a>
+                               <a href="outPho.html">Outreach Photos</a>
+                               <a href="video.html">Video</a>
+                           </div>
+                       </li>
+                       <li class="navPos">
+                           <a class="menu-item" href="resources.html">Resources</a>
+                       </li>
+                    </ul>
+                </nav>
+            </div>
+       </header>
+       <div class="aboutBase">
+           <img src="../assets/img/worldsPit.jpg" class="aboutHead-pic">
+           <div class="overview">
+               <div id="teamStats">
+                   <h2 id="statTag">Team Statistics</h2>
+                   <p class="statBody">Rookie Year: 2016<br>School: Rockhurst High School<br>Location: Kansas City, Missouri, USA<br>Students: 23<br>Mentors: 4<br>Coaches: 3<br><br><br>100% of members involved in other extra-curriculars<br><br><br>55% of our team participates in boy scouts, with 22% being eagle scouts.<br><br><br>Sponsors: Livers Bronze,<br>M-source Machining, Pyramid Piping Supply, Willoughby Design, Zahner Design & Fabrication, Red Door and Grill</p>
+               </div>
+               <div id="profile">
+                   <h2 class="overHeader">Team Profile</h2>
+                   <p class="overBody-include">Team 5809, Jesubot Robotics, is based out of Kansas City, Missouri, at Rockhurst High School. Since our rookie FRC season in 2016 we have continued to improve as a team, and a community.</p>
+                   <p class="overview-readMore"><a class="overview-readMore" href="#aboutHeads-main">Learn More About Us</a></p>
+               </div>
+               <div id="awards">
+                   <h2 class="overHeader">Team Awards</h2>
+                   <p class="overBody">As a rookie team overcoming experienced teams and individuals is not an<br>easy task. However in our first season we are very happy to say we made it<br>to the World Championship in St. Louis, Missouri. We punched our ticket to worlds by winning the Rookie All Star award at the Queens City Regional.<br>In the 2017 season we hope to continue our rapid development through this year and beyond.</p>
+               </div>
+               <div id="teamOutreach">
+                   <h2 class="overHeader">Team Outreach</h2>
+                   <p class="overBody-include">Outreach is a very important necessity to us not only as a team, but a community. In our local community we have presented and hosted<br>numerous camps and demonstrations. Through these events we hope to increase the interest in STEAM fields among young people, along with improving the skills and knowledge our audience has.</p>
+                   <p class="overview-readMore"><a class="overview-readMore" href="outreach.html">Read More About Team Outreach</a></p>
+               </div>
+               <div id="teamDivisions">
+                   <h2 class="overHeader">Team Divisions</h2>
+                   <p class="overBody-include">The Jesubots work in multiple sub-teams to maximize efficiency and spread our team's talent. Aside from our coaches and mentors, we are all led by a Project Manager. Beyond that we have sub-teams including Build, CAD,<br>Public Reltions, Programming, Web Design, and Electrical. Members of each team are not restricted to only one division, which in turn allows for the combination of all work to be much more fluid.</p>
+                   <p class="overview-readMore"><a class="overview-readMore" href="team.html">Read More About Team Divisions</a></p>
+               </div>
+               <div id="overSponsor">
+                   <h2 class="overHeader">Sponsors</h2>
+                   <p class="overBody-include">Sponsors have become an essential factor to the success of our team. Our gracious partners provide product discounts, finances, assistance, and services. Thank you sponsors for all you do!</p>
+                   <p class="overview-readMore"><a class="overview-readMore" href="partners.html">Learn More About Our Sponsors</a></p>
+               </div>
+           </div>
+           <div class="teamSum">
+               <h1 id="aboutHeads-main">Team Program and Summary</h1>
+               <p id="aboutBases"><strong>F</strong>IRST Robotics Challenge Team 5809 was founded to transform young teens into well rounded individuals through Jesuit education. The issue with Jesuit education, is the lack of complete education in the areas of science and technology which encoumpasses the robotics field. FIRST creates easily accessible innovative programs, which inspire young people to pursue further education in science technology engineering and math.<br>Additionally, competing in FIRST competitions strengthens the brotherhood, Rockhurst is well known for. FIRST competition also increase the ability of a Rockhurst High School students to work with people from other teams: people the student are not used to working with, a necessary life skill.</p>
+           </div>
+           <div class="teamOrigin">
+               <h1 id="aboutHeads">Team Origin</h1>
+               <p id="aboutBases">FIRST Team 5809 was established in the fall of 2015 by Mr. Andrew Wilcox and Mr. Paul Winkler, both of the Science Department at Rockhurst High School. The team consists of 23 students, three coaches and four mentors. Team 5809 won the Rookie All Star Award at their second regional in Queen City, Cincinnati. Then the Jesubots competed at the world championships. They left St. Louis, where the world championship  was held, understanding the competition they face and what it will take to get there again.</p>
+           </div>
+           <div class="teamHistory">
+               <h1 id="aboutHeads">Team History</h1>
+               <p id="aboutBases"><strong>I</strong>n 2014, a desire was expressed to the Rockhurst High School administration to start a robotics program. The candidate chosen to lead the project was a science teacher Mr. Andrew Wilcox. When asked why, his fellow swim coach and science department head responded: “Andy, you are the only one who doesn't call a repairman to his house.” Mr. Wilcox  started a robotics club immediately. Robotics classes started in 2015. After little deliberation, Mr. Wilcox realized his club would get bored easily without a competition to compete. He was directed to the FIRST program. The fall of 2015, Team 5809 was founded by the same Mr. Wilcox and his fellow swim coach and department head, Mr. Paul Winkler. The team assisted setup at Cowtown Throwdown in 2015, cutting setup in half.<br>In January of 2016, Team 5809 attended the kickoff at Garmin Industries in Olathe, Kansas, United States. After a rough start, Team 5809 competed at the Kansas City Regional March 10th, 11th, and 12th in 2016. After a tough learning experience, Team 5809’s public relations captain prepared an executive summary, and the head of scouting designed three scouting sheets and an organization system for competition. With a slightly better idea of their tasks, Team 5809 went on to compete in the Queen City Regional in Ohio, United States between  March 30th and April 2nd. At Queen City, the team performed to a higher standard than Kansas City, and achieved everything they set out to achieve their rookie year. Team 5809 didn't actually realize they met all of their rookie goals. A judge pointed out how rare it was, and awarded them the Rookie All Star award for their goals. They were going to the First Robotics Competition  World Championships.<br>World Championships was held at St. Louis, Missouri, United States, on April 27-30th. Team 5809 instituted all methods they picked up from previous competitions, and entered with open minds. They left Worlds with many new friends, some international, and a mindset of how hard they have to work to return</p>
+           </div>
+           <div class="teamFuture">
+               <h1 id="aboutHeads">Future Team Plans</h1>
+               <p id="aboutBases">In addition to increasing team size and involvement in community activities throughout the year, Team 5809 plans to continue pursuit in inspiring younger students and girls in the areas of STEAM. The inspiration of girls in STEAM is an extreme challenge, however Team 5809 tries to reach younger girls and boys through their camps, and plan on opening their team up from the All Boys School of Rockhurst High School to include one or more of the all girls schools in the area.</p>
+           </div>
+           <div class="aboutBase-bottom"></div>
+       </div>
+    </div>
+    <footer>
+       <div class="mainBlock">
+           <div class="contactFoot">
+               <h6 id="contactFoot-head">CONTACT US</h6>
+               <a href="https://www.rockhursths.edu"><img id="contactFoot-image" src="../assets/img/rhs_logo.jpg" alt="Rockhurst High School" width="300px"; height="80px";/></a>
+               <h6 id="contactFoot-foot">Rockhurst High School Robotics<br>9301 State Line Road<br> Kansas City, MO 64114-3299</h6>
+           </div>
+           <div id="mapSect">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.4285879728654!2d-94.60753958839508!3d38.959880590296194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0e9201e40a83d%3A0xa55e3c2ae47ad70c!2sRockhurst+High+School!5e0!3m2!1sen!2sus!4v1483995648401" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>           
+           </div>
+           <div id="firstFoot">
+               <a href="http://www.firstinspires.org/"><img src="../assets/img/FIRST_logo.png" alt="FIRST®" width="170px" height="120px"/></a>
+           </div>
+       </div>
+       <div class="bottomBlock">
+           <div class="bottomCopyPiece">
+               <p id="copyrightSect">©Copyright 2017 Jesubots. All Rights Reserved.</p>
+           </div>
+           <div class="socialFoot-twitter">
+               <a class="twitter-follow-button" href="https://twitter.com/jesubots" data-show-count="false" data-show-screen-name="false">Follow</a>
+           </div>
+           <div class="socialFoot-facebook">
+               <div class="fb-follow" data-href="https://www.facebook.com/The-Jesubots-1574267276128955/" data-layout="button" data-size="small" data-show-faces="true"></div>
+           </div>
+       </div>
+   </footer>
+</body>
+</html>

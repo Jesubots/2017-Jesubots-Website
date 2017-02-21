@@ -1,0 +1,1200 @@
+/******************************
+*****        This is the Official Stylesheet Code for the 2017 Jesubots       *****        Website v1.
+*****        As this is the first Edition, we are aware there may be bugs,
+*****        feel free to contact me at maxgoeke@amdg.rockhursths.edu for any *****        bugs you may discover. There will be constant editions to the *****        website, posted on Github. All additional documentation for the *****        website can be found on our github, @jesubots or @jesubots5809.
+******************************/
+/* Site-wide used */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    background: white;
+}
+.container {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    background: white;
+}
+/*****************************
+*****         Footer 
+*****************************/
+.mainBlock {
+    background: #252525;
+    width: 100%;
+    height: 440px;
+}
+.contactFoot {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+#contactFoot-head {
+    color: #bbbbbb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-bottom: 25px;
+}
+#contactFoot-image {
+    width: 300px;
+    height: 80px;
+    padding-bottom: 15px;
+}
+#contactFoot-foot {
+    color: #bbbbbb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding-left: 12px;
+    width: 230px;
+}
+#firstFoot {
+    float: left;
+    width: 200px;
+    height: 150px;
+    text-align: center; 
+    padding-left: 50px;
+}
+#mapSect {
+    width: 500px;
+    height: 400px;
+    float: right;
+    padding: 20px;
+    padding-right: 40px;
+}
+.bottomBlock {
+    background: #1c1c1c;
+    width: 100%;
+    height: 80px;
+}
+.bottomCopyPiece {
+    width: 60%;
+    height: 80px;
+    display: inline-block;
+    float: left;
+}
+#copyrightSect {
+    color: #616265;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    text-align: right;
+    padding-top: 32px;
+}
+.socialFoot-twitter {
+    float: right;
+    height: 20px;
+    width: 35%;
+    padding: 5px;
+    padding-right: 40px;
+    padding-top: 15px;
+    text-align: right;
+}
+.socialFoot-facebook {
+    float: right;
+    height: 20px;
+    width: 30%;
+    padding: 5px;
+    padding-right: 41px;
+    padding-top: 2px;
+    text-align: right;
+}
+/*****************************
+*****         Navigation 
+*****************************/
+header {
+    padding-bottom: 0px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+#jesuPic {
+    width: 267px;
+    height: 66.75px;
+    padding-bottom: 10px;
+    float: left;
+    padding-right: 20px;
+}
+.jesuLogo {
+    width: 290px;
+}
+#logo {
+    width: 270px;
+    height: 90px;
+    padding-bottom: 10px;
+}
+.jesuNav {
+    float: left;
+    padding-top: 22px;
+    width: auto;
+}
+.jb-menu {
+    line-height: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 10px;
+    overflow: hidden;
+    background-color: #003ca2;
+}
+.navPos {
+    float: left;
+}
+.menu-item, .dropbtn {
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 8px 24px;
+    text-decoration: none;
+    font-style: bold;
+    font-size: 14px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+}
+.menu-item:hover, .jesubotsDrop:hover .dropbtn {
+    color: #f3db51;
+}
+li.jesubotsDrop {
+    display: inline-block;
+}
+.jesubotsDrop-content {
+    display: none;
+    position: absolute;
+    background-color: #616265;
+    color: white;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+    font-size: 14px;
+    min-width: 160px;
+    min-height: inherit;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+}
+.jesubotsDrop-content a {
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.jesubotsDrop-content a:hover {
+    background-color: #f3db51;
+    color: white;
+}
+.jesubotsDrop:hover .jesubotsDrop-content {
+    display: block;
+}
+/*****************************
+*****         End of Nav
+*****         Clockwork Section
+*****************************/
+.clockDiv {
+    height: 200px;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+.clock2Div {
+    height: 200px;
+    position: relative;
+    width: 49%;
+    text-align: center;
+    float: right;
+    display: inline-block;
+}
+#kcClock {
+    color: #003ca2;
+    font-weight: 120;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+    text-align: center;
+    padding-left: 35px;
+    width: 400px;
+}
+#iaClock {
+    color: #003ca2;
+    font-weight: 120;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    width: 430px;
+}
+#kcRegionClock {
+	font-family: sans-serif;
+	color: #fff;
+	display: inline;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+    width: 35%;
+}
+#iaRegionClock {
+    font-family: sans-serif;
+	color: #fff;
+	display: inline;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+    width: 35%;
+}
+#kcRegionClock > div {
+	padding: 10px;
+	border-radius: 10px;
+	background: #003ca2;
+	display: inline-block;
+}
+#iaRegionClock > div {
+	padding: 10px;
+	border-radius: 10px;
+	background: #003ca2;
+	display: inline-block;
+}
+#kcRegionClock div > span {
+	padding: 10px;
+	border-radius: 10px;
+	background: #f3db51;
+	display: inline-block;
+}
+#iaRegionClock div > span {
+	padding: 10px;
+	border-radius: 10px;
+	background: #f3db51;
+	display: inline-block;
+}
+.smalltext {
+	padding-top: 7px;
+	font-size: 16px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+}
+/*****************************************
+*** End code for Clockwork
+*** Begin code for homepage middle section
+******************************************/
+.homeInfo {
+    height: 785px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#sponsorSect {
+    width: 98%;
+    height: 300px;
+    position: relative;
+    border: 9px solid #003ca2;
+    border-right: 8px solid #003ca2;
+    float: left;
+    background-color: #23282e;
+    overflow: hidden;
+}
+#sponsorSign {
+    color: #bbbbbb;
+    text-align: center;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: none;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+/* code for scrolling sponsors */
+* {margin: 0; padding: 0;}
+#sponsorContainer {
+	width: 3000px;
+    height: 160px;
+	overflow: hidden;
+	margin: 20px auto;
+}
+/*keyframe animations*/
+.sponsorFirst {
+	-webkit-animation: bannermove 30s linear infinite;
+	   -moz-animation: bannermove 30s linear infinite;
+	    -ms-animation: bannermove 30s linear infinite;
+	     -o-animation: bannermove 30s linear infinite;
+	        animation: bannermove 30s linear infinite;
+}
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+} 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+.sponsorBanner {
+	height: 167px;
+	width: 100%;
+	margin: auto;
+}
+.sponsorBanner img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.sponsorBanner img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor: pointer;
+
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+/* end code for scrolling sponsors */
+#historySect {
+    width: 45%;
+    height: 215px;
+    position: relative;
+    border: 9px solid #003ca2;
+    float: left;
+    background-color: white;
+    overflow: hidden;
+}
+#historySect-title {
+    text-align: center;
+    color: #003074;
+    font-size: 22px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+    font-weight: 500;
+    border-bottom: 3px solid #bbbbbb;
+}
+#historySect-para {
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+}
+#twitterSect {
+    width: 24%;
+    height: 448px;
+    position: relative;
+    border: 9px solid #003ca2;
+    float: left;
+    background-color: white;
+    overflow: hidden;
+    text-align: left;
+    display: inline-block;
+}
+#facebookSect {
+    width: 25%;
+    height: 448px;
+    position: relative;
+    border: 9px solid #003ca2;
+    background-color: white;
+    overflow: hidden;
+}
+#schoolSect {
+    width: 45%;
+    height: 215px;
+    position: relative;
+    border: 9px solid #003ca2;
+    float: left;
+    background-color: white;
+    overflow: hidden;
+}
+#schoolSect-title {
+    text-align: center;
+    color: #003074;
+    font-size: 22px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+    font-weight: 500;
+    border-bottom: 3px solid #bbbbbb;
+}
+#schoolSect-para {
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+}
+/******************************
+*****        About Page
+******************************/
+.aboutBase {
+    background: white;
+}
+.aboutHead-pic {
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+}
+.overview {
+    width: 100%;
+    height: 1200px;
+    background: white;
+}
+.overHeader {
+    color: #f3db51;
+    width: 50%;
+    height: 40px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 25px;
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+.overBody {
+    color: white;
+    width: 100%;
+    height: 144px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 14px;
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+.overBody-include {
+    color: white;
+    width: 100%;
+    height: 110px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 14px;
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+.overview-readMore {
+    color: #bbbbbb;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 14px;
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+}
+#profile {
+    width: 60%;
+    height: 200px;
+    background: #003ca2;
+    margin-top: 50px;
+    border: 9px solid white;
+    float: left;
+}
+#awards {
+    width: 60%;
+    height: 200px;
+    background: #003ca2;
+    border: 9px solid white;
+    border-top: 0px;
+    float: left;
+}
+#teamOutreach {
+    width: 60%;
+    height: 200px;
+    background: #003ca2;
+    border: 9px solid white;
+    border-top: 0px;
+    float: left;
+}
+#teamDivisions {
+    width: 60%;
+    height: 200px;
+    background: #003ca2;
+    border: 9px solid white;
+    border-top: 0px;
+    float: left;
+}
+#overSponsor {
+    width: 60%;
+    height: 200px;
+    background: #003ca2;
+    border: 9px solid white;
+    border-top: 0px;
+    float: left;
+}
+#teamStats {
+    width: 36%;
+    height: 1036px;
+    margin-top: 50px;
+    background: #003ca2;
+    border: 9px solid white;
+    float: right;
+}
+#statTag {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 15px;
+    color: #f3db51;
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+.statBody {
+    width: 80%;
+    height: 1000px;
+    text-align: left;
+    padding-top: 20px;
+    color: whitesmoke;
+    margin-left: 8%;
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    display: inline-block;
+}
+#aboutHeads {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #003ca2;
+    text-align: center;
+    width: 61%; 
+    height: 50px;
+    border-bottom: 3px solid #f3db51;
+    background: white;
+    padding: 5px;
+    padding-bottom: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+}
+#aboutHeads-main {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #003ca2;
+    text-align: center;
+    width: 61%; 
+    height: 50px;
+    border-bottom: 3px solid #f3db51;
+    background: white;
+    padding: 5px;
+    padding-bottom: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+}
+#aboutBases {
+    width: 60%;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    background: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5px;
+    border: 5px solid #6a282a
+}
+.aboutBase-bottom {
+    background: white;
+    height: 100px;
+    width: 100%;
+}
+/********************************
+****    Team Page
+********************************/
+.teamDivisions-body {
+    width: 100%;
+    height: 1650px;
+}
+.teamProfiles-head {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+#teamProfiles-title {
+    color: #23282e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    height: 40px;
+    padding-bottom: 20px;
+}
+.teamSections {
+    width: 100%;
+    height: 55px;
+}
+div.teamDivs {
+        width: 70px;
+        height: 20px;
+        overflow: hidden;
+        display: inline-block;
+        text-align: center;
+        background: #003ca2;
+        border: 3px solid #616265;
+        border-radius: 10px;
+        margin-top: 14px;
+    }
+.active-teamSections, div.teamDivs:hover {
+        background: #003074;
+}
+.hide {
+        display: none;
+}
+#teamDiv-x1 {
+    color: #f3db51;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#teamDiv-x2 {
+    color: #f3db51;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#teamDiv-x3 {
+    color: #f3db51;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#teamDiv-x4 {
+    color: #f3db51;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#teamDiv-x5 {
+    color: #f3db51;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#teamDiv-x6 {
+    color: #f3db51;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.displays {
+    height: 600px;
+    width: 100%;
+}
+.generalTeam {
+    margin-top: 50px;
+    margin-left: 40%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #6a282a;
+    width: 200px;
+    border-bottom: 4px solid #003074;
+}
+.generalPhotos {
+    width: 100%;
+    height: 1440px;
+    padding-top: 20px;
+}
+.designTeam {
+    margin-top: 50px;
+    margin-left: 34%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #6a282a;
+    width: 310px;
+    border-bottom: 4px solid #003074;
+}
+.designPhotos {
+    width: 100%;
+    height: 740px;
+    padding-top: 20px;
+}
+.buildTeam {
+    margin-top: 50px;
+    margin-left: 38%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #6a282a;
+    width: 225px;
+    border-bottom: 4px solid #003074;
+}
+.buildPhotos {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+}
+.softwareTeam {
+    margin-top: 50px;
+    margin-left: 35%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #6a282a;
+    width: 290px;
+    border-bottom: 4px solid #003074;
+}
+.softwarePhotos {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+}
+.prTeam {
+    margin-top: 50px;
+    margin-left: 40%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #6a282a;
+    width: 185px;
+    border-bottom: 4px solid #003074;
+}
+.prPhotos {
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+}
+.scoutingTeam {
+    margin-top: 50px;
+    margin-left: 35%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #6a282a;
+    width: 280px;
+    border-bottom: 4px solid #003074;
+}
+.scoutingPhotos {
+    width: 100%;
+    height: 740px;
+    padding-top: 20px;
+}
+.userBlock {
+    margin-top: 30px;
+    width: 150px;
+    height: 200px;
+    border: 3px solid #003ca2;
+    margin-left: 10px;
+    margin-right: 20px;
+    display: inline-block;
+    float: left;
+}
+.userPhoto {
+    width: 130px;
+    height: 105px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.userProfile {
+    width: 130px;
+    margin: 10px;
+    margin-top: 5px;
+    height: 78px;
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.teamProfiles-pictures {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+/********************************
+****    Mission Page
+********************************/
+#mission-details {
+    width: 100%;
+    height: 420px;
+}
+#mission-head {
+    width: 25%;
+    height: 50px;
+    margin-left: 40%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    box-shadow: 600px;
+    color: #003ca2;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 5px solid #f3db51;
+}
+#mission-body {
+    width: 100%;
+    height: 270px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    padding-top: 30px;
+}
+#missiontoVision {
+    width: 100%;
+    height: 100px;
+    background-color: #003ca2;
+}
+#vision-details {
+    width: 100%;
+    height: 450px;
+}
+#vision-head {
+    width: 23%;
+    height: 50px;
+    margin-left: 40%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    box-shadow: 600px;
+    color: #003ca2;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 5px solid #f3db51;
+}
+#vision-body {
+    width: 100%;
+    height: 335px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    padding-top: 30px;
+}
+/********************************
+****    Outreach Page
+********************************/
+#communityInv-details {
+    width: 100%;
+    height: 1190px;
+}
+#communityInv-head {
+    width: 47%;
+    height: 50px;
+    margin-left: 28%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    box-shadow: 600px;
+    color: #003ca2;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 5px solid #f3db51;
+}
+#communityInv-body {
+    width: 100%;
+    height: 1080px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    padding-top: 30px;
+}
+#communityInv-transfer {
+    width: 100%;
+    height: 100px;
+    background-color: #003ca2;
+}
+#outreach-Change {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 40px;
+}
+#prairieInv-details {
+    width: 100%;
+    height: 400px;
+}
+#prairieInv-head {
+    width: 40%;
+    height: 50px;
+    margin-left: 28%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    box-shadow: 600px;
+    color: #003ca2;
+    text-align: center;
+    padding-top: 30px;
+    border-bottom: 5px solid #f3db51;
+}
+#prairieInv-body {
+    width: 100%;
+    height: 230px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    padding-top: 30px;
+}
+/********************************
+****    Schedule Page
+********************************/
+#calenderDiv {
+    width: 100%;
+    height: 800px;
+}
+#jesubot-calender {
+    margin-left: 7%;
+    margin-top: 40px;
+}
+/********************************
+****    Robots Page
+********************************/
+#robot-17 {
+    width: 100%;
+    height: 600px;
+}
+#robot-16 {
+    width: 100%;
+    height: 600px;
+}
+.robotHead {
+    width: 100%;
+    height: 100px;
+    background-color: #616265;
+}
+.robotTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px; 
+    color: #f3db51;
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: 5px;
+}
+/********************************
+****    Sponsors Page
+********************************/
+#sponsorsGrat {
+    width: 100%;
+    height: 2300px;
+}
+#sponsorBanner {
+    background-color: #616265;
+    width: 100%;
+    height: 100px;
+}
+#sponsor-welcome {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px; 
+    color: #f3db51;
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: 5px;
+}
+#sponsorShowcase {
+    width: 57%;
+    height: 2100px;
+    display: inline-block;
+}
+.sponsorDiv {
+    width: 100%;
+    height: 200px;
+    margin-top: 75px;
+    text-align: center;
+}
+.sponsorImg {
+    width: 50%;
+    height: 200px;
+    margin-left: 25%;
+}
+.sponsor-image {
+    width: 100%;
+    height: 200px;
+}
+.sponsor-image2 {
+    width: 100%;
+    height: 80px;
+    padding-top: 50px;
+}
+.sponsor-image3 {
+    width: 70%;
+    height: 200px;
+}
+.sponsor-image4 {
+    width: 100%;
+    height: 100px;
+}
+.sponsor-image5 {
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+}
+.sponsor-image6 {
+    width: 100%;
+    height: 90px;
+    padding-top: 30px;
+}
+.sponsor-image7 {
+    width: 100%;
+    height: 150px;
+    padding-top: 30px;
+}
+.sponsor-image8 {
+    width: 100%;
+    height: 150px;
+    padding-top: 30px;
+}
+.sponsorSide {
+    width: 200px;
+    height: 2000px;
+    background-color: #003ca2;
+    float: left;
+    display: inline-block;
+    margin-top: 100px;
+}
+.sponsorSide2 {
+    width: 200px;
+    height: 2000px;
+    background-color: #003ca2;
+    float: right;
+    display: inline-block;
+    margin-top: 100px;
+}
+/********************************
+****    Business Plan Page
+********************************/
+#businessPlan {
+	width: 100%;
+	height: 1300px;
+}
+#bp-head {
+	width: 100%;
+	height: 100px;
+	background-color: #616265;
+}
+#bp-title {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 32px; 
+    color: #f3db51;
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: 5px;
+}
+.businessDoc {
+	border: 3px solid #003ca2;
+	width: 90%;
+	height: 900px;
+	margin-left: 4%;
+	margin-top: 100px;
+}
+/********************************
+****    FIRST Page
+********************************/
+#firstBanner {
+	width: 100%;
+	height: 100px;
+	background-color: #616265;
+}
+#firstBanner-title {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 32px; 
+    color: #f3db51;
+    text-align: center;
+    padding-top: 35px;
+    letter-spacing: 5px;
+}
+/********************************
+****    Resource Page
+********************************/
+.resourceBody {
+    width: 100%;
+    height: 500px;
+}
+#mediaResource {
+	width: 49%;
+	height: 300px;
+	border: 3px solid #003ca2;
+	float: left;
+	display: inline-block;
+}
+#toolsResource {
+	width: 49%;
+	height: 300px;
+	border: 3px solid #003ca2;
+	float: left;
+	display: inline-block;
+}
+.resource-tag {
+	width: 50%;
+	margin-left: 25%;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	border-bottom: 3px solid #f3db51;
+}
+.tool-tag {
+	width: 100%;
+	height: 80px;
+}
+#fb-resource {
+	padding-top: 40px;
+	width: 100%;
+	text-align: center;
+}
+.twitter-follow-button {
+	padding-top: 40px;
+	width: 100%;
+	text-align: center;
+	margin-left: 25%;
+}
+#sourceforgeResource {
+	padding-top: 15px;
+	width: 50%;
+	margin-left: 25%;
+	height: 80px;
+}
+#githubResource {
+	padding-top: 15px;
+	width: 40%;
+	margin-left: 30%;
+	height: 110px;
+}
