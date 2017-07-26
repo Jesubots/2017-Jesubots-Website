@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
     <title>Jesubots</title>
     <link href="assets/jesubot.css" rel="stylesheet" type="text/css">
     <link href="assets/img/shield_rhs_rgb.jpg" rel="icon">
@@ -52,15 +53,6 @@
                        <li class="navPos">
                            <a class="menu-item" href="html/first.html"><i>FIRST®</i></a>
                        </li>
-                       <li class="navPos jesubotsDrop">
-                           <a class="menu-item dropbtn">Media</a>
-                           <div class="jesubotsDrop-content">
-                               <a href="html/offPho.html">Offseason Photos</a>
-                               <a href="html/compPho.html">Competition Photos</a>
-                               <a href="html/outPho">Outreach Photos</a>
-                               <a href="html/video.html">Video</a>
-                           </div>
-                       </li>
                        <li class="navPos">
                            <a class="menu-item" href="html/resources.html">Resources</a>
                        </li>
@@ -68,10 +60,85 @@
                 </nav>
             </div>
        </header>
-       <br><br><br><br><br><br>
-       <div class="clockDiv">
-           <h1 id="kcClock">Greater KC Regional</h1>
-           <div id="kcRegionClock">
+       <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>	
+       <div id="homeSlide">
+       		<div class="homeSlide-head">
+       			<div class="homeSlide-buttons">
+       				<div class="hS-button-selectors active-homeSlideButtons" id="hS-button-selectors-x1">
+       					<h6 class="hS-selector-tags">2017 Season has Begun!</h6>
+       				</div>
+       				<div class="hS-button-selectors" id="hS-button-selectors-x2">
+       					<h6 class="hS-selector-tags">New Partners!</h6>
+       				</div>
+       				<div class="hS-button-selectors" id="hS-button-selectors-x3">
+       					<h6 class="hS-selector-tags">2017 Game Revealed!</h6>
+       				</div>
+       				<div class="hS-button-selectors" id="hS-button-selectors-x4">
+       					<h6 class="hS-selector-tags">Rookie Recap</h6>
+       				</div>
+       				<div class="hS-button-selectors" id="hS-button-selectors-x5">
+       					<h6 class="hS-selector-tags">Competition Ready</h6>
+       				</div>
+       			</div>
+       		</div>
+       		<div class="homeSlide-displays">
+       			<div class="hide" id="hidehS-button-selectors-x1">
+       				<div class="homeSlide-content">
+       					<div class="homeSlide-photos">
+       						<img src="assets/img/robotics_logo.jpg" class="homeSlide-photo-1">
+       					</div>
+       					<div class="homeSlide-photo-descriptions">
+       						<p class="homeSlide-desc-content">We're back again for our second FRC season as team 5809. Look for us at the Kansas City Regional or Iowa Regional in the month of March. Check below for a countdown to both events!</p>
+       					</div>		
+       				</div>
+       			</div>
+       			<div class="hide" id="hidehS-button-selectors-x2">
+       				<div class="homeSlide-content">
+       					<div class="homeSlide-photos">
+       						<img src="assets/img/willoughby-house.png" class="homeSlide-photo-2">
+       						<img src="assets/img/willoughby-logo.png" class="homeSlide-photo-21">
+       					</div>
+       					<div class="homeSlide-photo-descriptions">
+       						<p class="homeSlide-desc-content">A huge shout out to Willoughby Design for their gracious partnership with us this year. We look forward to the 2017 season with confidence thanks to our new friends at Willoughby!</p>
+       					</div>		
+       				</div>
+       			</div>
+       			<div class="hide" id="hidehS-button-selectors-x3">
+       				<div class="homeSlide-content">
+       					<div class="homeSlide-photos">
+       						<img src="assets/img/first-steamworks-logo.png" class="homeSlide-photo-3">
+       					</div>
+       					<div class="homeSlide-photo-descriptions">
+       						<p class="homeSlide-desc-content">Click <a href="https://www.youtube.com/watch?v=EMiNmJW7enI" id="gameReveal-icon">here</a> for the official game reveal video!</p>
+       					</div>		
+       				</div>
+       			</div>
+       			<div class="hide" id="hidehS-button-selectors-x4">
+       				<div class="homeSlide-content">
+       					<div class="homeSlide-photos">
+       						<img src="assets/img/2016-group.jpg" class="homeSlide-photo-4">
+       					</div>
+       					<div class="homeSlide-photo-descriptions">
+       						<p class="homeSlide-desc-content">Our 2016 season brought many learning experiences and challenges for our first year. But our season with Ignatius only allowed us to prosper with this years robot... Xavier!</p>
+       					</div>		
+       				</div>
+       			</div>
+       			<div class="hide" id="hidehS-button-selectors-x5">
+       				<div class="homeSlide-content">
+       					<div class="homeSlide-photos">
+       						<img src="assets/img/robot-side2.jpg" class="homeSlide-photo-5">
+       						<img src="assets/img/drivetrain-front.jpg" class="homeSlide-photo-51">
+       					</div>
+       					<div class="homeSlide-photo-descriptions">
+       						<p class="homeSlide-desc-content">After a lot of learning experience and growth in our Rookie Season we have transformed as a team. This year our robot, Xavier, is ready to compete with the best out there.</p>
+       					</div>		
+       				</div>
+       			</div>
+       		</div>
+       </div>	  
+       <div class="clock2Div">
+           <h1 id="kickoffClock">2018 Kickoff</h1>
+           <div id="eightkickoffClock">
                <div>
                     <span class="days"></span>
                     <div class="smalltext">Days</div>
@@ -89,44 +156,25 @@
                     <div class="smalltext">Seconds</div>
                </div>
             </div>
-        </div>
-        <div class="clock2Div">
-           <h1 id="iaClock">Iowa Regional</h1>
-           <div id="iaRegionClock">
-               <div>
-                    <span class="days"></span>
-                    <div class="smalltext">Days</div>
-               </div>
-               <div>
-                    <span class="hours"></span>
-                    <div class="smalltext">Hours</div>
-               </div>
-               <div>
-                    <span class="minutes"></span>
-                    <div class="smalltext">Minutes</div>
-               </div>
-               <div>
-                    <span class="seconds"></span>
-                    <div class="smalltext">Seconds</div>
-               </div>
-            </div>
-        </div>
+        </div>  
         <br><br><br><br>
         <div class="homeInfo">
             <div id="sponsorSect">
                 <h1 id="sponsorSign">Thank You Sponsors!</h1>
                 <div id="sponsorContainer">
                     <div class="sponsorBanner">
-    	                <img class="sponsorFirst" src="assets/img/nutsandbolts.jpg" alt="" width="300px" height="165px"/>
-    	                <img src="assets/img/willoughby-logo.png" width="300px" height="160px" alt="" />
-    	                <img src="assets/img/Msource-logo.png" alt="" width="300px" height="160px" />
-    	                <img src="assets/img/pyramid.gif" alt="" width="300px" height="160px" />
-    	                <img src="assets/img/Livers-Bronze-Logo.jpg" alt="" width="300px" height="160px" />
-    	                <img src="assets/img/zahner-logo-red.jpg" alt="" width="300px" height="160px" />
-    	                <img src="assets/img/willoughby-logo.png" alt="" width="300px" height="160px" />
-    	                <img src="assets/img/Msource-logo.png" alt="" width="300px" height="160px" />
-    	                <img src="assets/img/pyramid.gif" alt="" width="300px" height="160px" />
-    	                <img src="assets/img/Livers-Bronze-Logo.jpg" alt="" width="300px" height="160px" />
+    	                <img class="sponsorFirst" src="assets/img/willoughby-logo.png" alt="" width="300px" height="165px"/>
+    	                <img src="assets/img/zahner-logo-red.jpg" width="300px" height="140px" alt=""/>
+    	                <img src="assets/img/pyramid.gif" alt="" width="300px" height="140px"/>
+    	                <img src="assets/img/metalabs-logo.jpg" alt="" width="300px" height="140px"/>
+    	                <img src="assets/img/willoughby-logo.png" alt="" width="300px" height="140px"/>
+    	                <img src="assets/img/zahner-logo-red.jpg" alt="" width="300px" height="140px"/>
+    	                <img src="assets/img/pyramid.gif" alt="" width="300px" height="140px"/>
+    	                <img src="assets/img/metalabs-logo.jpg" alt="" width="300px" height="140px"/>
+    	                <img src="assets/img/willoughby-logo.png" alt="" width="300px" height="140px"/>
+    	                <img src="assets/img/zahner-logo-red.jpg" alt="" width="300px" height="140px"/>
+    	                <img src="assets/img/pyramid.gif" alt="" width="300px" height="140px"/>
+    	                <img src="assets/img/metalabs-logo.jpg" alt="" width="300px" height="140px"/>
                     </div>
                 </div>
             </div>
@@ -151,9 +199,11 @@
        </div>
        <script src="assets/kc-clock.js"></script>
        <script src="assets/ia-clock.js"></script>
+       <script src="assets/18kickoff.js"></script>
+       <script src="assets/homeDisplay.js"></script>
        <br><br><br>
    </div>
-   <footer>
+   <footer class="container2">
        <div class="mainBlock">
            <div class="contactFoot">
                <h6 id="contactFoot-head">CONTACT US</h6>
@@ -169,7 +219,7 @@
        </div>
        <div class="bottomBlock">
            <div class="bottomCopyPiece">
-               <p id="copyrightSect">©Copyright 2017 Jesubots. All Rights Reserved.</p>
+               <p id="copyrightSect">©Copyright 2017 Jesubots | Rockhurst High School</p>
            </div>
            <div class="socialFoot-twitter">
                <a class="twitter-follow-button" href="https://twitter.com/jesubots" data-show-count="false" data-show-screen-name="false">Follow</a>
