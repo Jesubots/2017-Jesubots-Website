@@ -4,6 +4,6 @@ Code for the official website of team 5809, the Jesubots. Version 1.
 
 ### Have a Question?
 
-Email max.goeke0@gmail.com for any bugs or support.
+Email maxgoeke@amdg.rochursths.edu for any questions or concerns.
 
 #### Built by Max Goeke
