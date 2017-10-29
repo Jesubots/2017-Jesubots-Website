@@ -1246,7 +1246,7 @@ div.active-teamSections, div.teamDivs:hover {
 ********************************/
 #sponsorsGrat {
     width: 100%;
-    height: 1800px;
+    height: 1100px;
 }
 #sponsorBanner {
     background-color: #616265;
@@ -1263,13 +1263,12 @@ div.active-teamSections, div.teamDivs:hover {
 }
 #sponsorShowcase {
     width: 57%;
-    height: 1700px;
+    height: 1000px;
     display: inline-block;
 }
 .sponsorDiv {
     width: 100%;
     height: 200px;
-    margin-top: 75px;
     text-align: center;
 }
 .sponsorImg {
@@ -1277,47 +1276,34 @@ div.active-teamSections, div.teamDivs:hover {
     height: 200px;
     margin-left: 25%;
 }
-.sponsor-image {
+#sponsor-image {
     width: 100%;
     height: 200px;
+	margin-top: 70px;
 }
-.sponsor-image2 {
+#sponsor-image2 {
     width: 100%;
     height: 80px;
-    padding-top: 50px;
+	margin-top: 70px;
 }
-.sponsor-image3 {
-    width: 70%;
-    height: 200px;
-}
-.sponsor-image4 {
-    margin-top: 60px;
+#sponsor-image4 {
 	width: 100%;
     height: 100px;
 }
-.sponsor-image5 {
+#sponsor-image5 {
     width: 100%;
     height: 100px;
     padding-top: 50px;
+	margin-top: 40px;
 }
-.sponsor-image6 {
+#sponsor-image6 {
     width: 100%;
     height: 90px;
-    padding-top: 30px;
-}
-.sponsor-image7 {
-    width: 100%;
-    height: 150px;
-    padding-top: 30px;
-}
-.sponsor-image8 {
-    width: 100%;
-    height: 150px;
-    padding-top: 30px;
+	margin-top: 30px;
 }
 .sponsorSide {
     width: 200px;
-    height: 1600px;
+    height: 900px;
     background-color: #003ca2;
     float: left;
     display: inline-block;
@@ -1325,7 +1311,7 @@ div.active-teamSections, div.teamDivs:hover {
 }
 .sponsorSide2 {
     width: 200px;
-    height: 1600px;
+    height: 900px;
     background-color: #003ca2;
     float: right;
     display: inline-block;
