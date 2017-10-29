@@ -1,7 +1,10 @@
 /******************************
-*****        This is the Official Stylesheet Code for the 2017 Jesubots       *****        Website v1.
+*****        This is the Official Stylesheet Code for the 2017 Jesubots       
+*****        Website v1.
 *****        As this is the first Edition, we are aware there may be bugs,
-*****        feel free to contact me at maxgoeke@amdg.rockhursths.edu for any *****        bugs you may discover. There will be constant editions to the *****        website, posted on Github. All additional documentation for the *****        website can be found on our github, @jesubots or @jesubots5809.
+*****        feel free to notify us on whatever you find. There will be constant editions to the 
+*****        website, posted on Github. All additional documentation for the 
+*****        website can be found on our github, @jesubots or @jesubots5809.
 ******************************/
 /* Site-wide used */
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
@@ -23,6 +26,11 @@ body {
     padding-right: 4%;
     padding-top: 3%;
     background: white;
+	width: 945px;
+}
+.container2 {
+	min-width: 1040px;
+	max-width: 100%;
 }
 /*****************************
 *****         Footer 
@@ -33,12 +41,13 @@ body {
     height: 440px;
 }
 .contactFoot {
-    width: 300px;
+    width: 40%;
     height: 250px;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
     float: left;
+	position: relative;
 }
 #contactFoot-head {
     color: #bbbbbb;
@@ -56,7 +65,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     text-align: center;
-    padding-left: 12px;
+    padding-left: 20%;
     width: 230px;
 }
 #firstFoot {
@@ -64,7 +73,7 @@ body {
     width: 200px;
     height: 150px;
     text-align: center; 
-    padding-left: 50px;
+    padding-left: 10%;
 }
 #mapSect {
     width: 500px;
@@ -120,14 +129,14 @@ header {
     display: block;
 }
 #jesuPic {
-    width: 267px;
+    width: 263px;
     height: 66.75px;
     padding-bottom: 10px;
     float: left;
     padding-right: 20px;
 }
 .jesuLogo {
-    width: 290px;
+    width: 286px;
 }
 #logo {
     width: 270px;
@@ -137,7 +146,7 @@ header {
 .jesuNav {
     float: left;
     padding-top: 22px;
-    width: auto;
+    width: 70%;
 }
 .jb-menu {
     line-height: 15px;
@@ -155,7 +164,7 @@ header {
     display: inline-block;
     color: whitesmoke;
     text-align: center;
-    padding: 8px 24px;
+    padding: 8px 30px;
     text-decoration: none;
     font-style: bold;
     font-size: 14px;
@@ -193,22 +202,172 @@ li.jesubotsDrop {
     display: block;
 }
 /*****************************
-*****         End of Nav
-*****         Clockwork Section
+*****       End of Nav
+*****       Welcome Gallery
 *****************************/
-.clockDiv {
+#homeSlide {
+	width: 100%;
+	height: 400px;
+	background-color: #252525;
+	border: 2px solid #f3db51;
+}
+.homeSlide-head {
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	align-content: center;
+}
+#homeSlide-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+#hS-button-selectors-x1 {
+	height: 40px;
+	margin: 15px;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#hS-button-selectors-x2 {
+	height: 40px;
+	margin: 15px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#hS-button-selectors-x3 {
+	height: 40px;
+	margin: 15px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#hS-button-selectors-x4 {
+	height: 40px;
+	margin: 15px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	text-align: center;
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+#hS-button-selectors-x5 {
+	height: 40px;
+	margin: 15px;
+	margin-top: 15px;
+	margin-bottom: 80px;
+	text-align: center;
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.homeSlide-displays {
+	width: 75%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+.hide {
+    display: none;
+}
+.homeSlide-content {
+	width: 97%;
+	height: 100%;
+	margin: 15px;
+	margin-top: 5px;
+}
+div.hS-button-selectors {
+	width: 100%;
+	background-color: #f3db51;
+	border-right: 6px solid #003ca2;
+	color: #6a282a;
+	overflow: hidden;
+}
+div.active-homeSlideButtons, div.hS-button-selectors:hover {
+	background: #003ca2;
+	border-right: 6px solid #f3db51;
+	color: #f3db51;
+}
+.homeSlide-photos {
+	width: 100%;
+	height: 310px;
+}
+.homeSlide-photo-descriptions {
+	width: 100%;
+	height: 70px;
+	margin-top: 10px;;
+	background-color: #003074;
+}
+.homeSlide-photo-1 {
+	width: 90%;
+	height: 150px;
+	margin-top: 70px;
+	margin-left: 30px;
+}
+.homeSlide-photo-3 {
+	width: 60%;
+	height: 300px;
+	margin-left: 150px;
+}
+#gameReveal-icon {
+	color: #f3db51;
+	text-decoration: none;
+}
+#gameReveal-icon:hover {
+	border-bottom: 3px solid white;
+}
+.homeSlide-photo-4 {
+	width: 80%;
+	height: 250px;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+#homeSlide-photo-5 {
+	width: 300px;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 60px;
+}
+#homeSlide-photo-51 {
+	width: 300px;
+	height: 149px;
+	margin-left: 30px;
+	margin-top: 75px;
+}
+.homeSlide-desc-content {
+	padding-left: 15px;
+	padding-top: 10px;
+	color: white;
+	font-family: "Roboto", "Helvita", "Arial", sans-serif;
+	font-size: 16px;
+}
+.hS-selector-tags {
+	text-align: center;
+	padding-top: 10px;
+	font-family: "Roboto", "Helvita", "Arial", sans-serif;
+	font-weight: 600;
+}
+/*****************************
+*****		Clockwork Section
+*****************************/
+.clock2Div {
     height: 200px;
     position: relative;
     width: 50%;
     text-align: center;
-    display: inline-block;
-}
-.clock2Div {
-    height: 200px;
-    position: relative;
-    width: 49%;
-    text-align: center;
-    float: right;
+	margin-left: 27%;
     display: inline-block;
 }
 #kcClock {
@@ -228,7 +387,27 @@ li.jesubotsDrop {
     margin: 40px 0px 20px;
     font-family: "Roboto", "Helvita", "Arial", sans-serif;
     text-align: center;
-    padding-left: 10px;
+	padding-left: 10px;
+    width: 430px;
+}
+#stateClock {
+	color: #003ca2;
+    font-weight: 120;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+    text-align: center;
+	padding-left: 10px;
+    width: 430px;
+}
+#kickoffClock {
+	color: #003ca2;
+    font-weight: 120;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+    font-family: "Roboto", "Helvita", "Arial", sans-serif;
+    text-align: center;
+	padding-left: 10px;
     width: 430px;
 }
 #kcRegionClock {
@@ -249,6 +428,24 @@ li.jesubotsDrop {
 	font-size: 30px;
     width: 35%;
 }
+#moStateClock {
+	font-family: sans-serif;
+	color: #fff;
+	display: inline;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+    width: 35%;
+}
+#eightkickoffClock {
+	font-family: sans-serif;
+	color: #fff;
+	display: inline;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+    width: 35%;
+}
 #kcRegionClock > div {
 	padding: 10px;
 	border-radius: 10px;
@@ -261,6 +458,18 @@ li.jesubotsDrop {
 	background: #003ca2;
 	display: inline-block;
 }
+#moStateClock > div {
+	padding: 10px;
+	border-radius: 10px;
+	background: #003ca2;
+	display: inline-block;
+}
+#eightkickoffClock > div {
+	padding: 10px;
+	border-radius: 10px;
+	background: #003ca2;
+	display: inline-block;
+}
 #kcRegionClock div > span {
 	padding: 10px;
 	border-radius: 10px;
@@ -268,6 +477,18 @@ li.jesubotsDrop {
 	display: inline-block;
 }
 #iaRegionClock div > span {
+	padding: 10px;
+	border-radius: 10px;
+	background: #f3db51;
+	display: inline-block;
+}
+#moStateClock div > span {
+	padding: 10px;
+	border-radius: 10px;
+	background: #f3db51;
+	display: inline-block;
+}
+#eightkickoffClock div > span {
 	padding: 10px;
 	border-radius: 10px;
 	background: #f3db51;
@@ -289,11 +510,10 @@ li.jesubotsDrop {
     margin-left: auto;
 }
 #sponsorSect {
-    width: 98%;
-    height: 300px;
+    width: 100%;
+    height: 290px;
     position: relative;
-    border: 9px solid #003ca2;
-    border-right: 8px solid #003ca2;
+    border-top: 9px solid #003ca2;
     float: left;
     background-color: #23282e;
     overflow: hidden;
@@ -312,10 +532,11 @@ li.jesubotsDrop {
 /* code for scrolling sponsors */
 * {margin: 0; padding: 0;}
 #sponsorContainer {
-	width: 3000px;
+    width: 3000px;
     height: 160px;
-	overflow: hidden;
-	margin: 20px auto;
+    overflow: hidden;
+    margin: 20px auto;
+    margin-top: 10px;
 }
 /*keyframe animations*/
 .sponsorFirst {
@@ -396,10 +617,11 @@ li.jesubotsDrop {
 }
 /* end code for scrolling sponsors */
 #historySect {
-    width: 45%;
+    width: 47%;
     height: 215px;
     position: relative;
-    border: 9px solid #003ca2;
+    border-bottom: 18px solid white;
+	border-top: 9px solid #003ca2;;
     float: left;
     background-color: white;
     overflow: hidden;
@@ -426,6 +648,7 @@ li.jesubotsDrop {
     height: 448px;
     position: relative;
     border: 9px solid #003ca2;
+	border-left: 10px solid #003ca2;
     float: left;
     background-color: white;
     overflow: hidden;
@@ -437,14 +660,15 @@ li.jesubotsDrop {
     height: 448px;
     position: relative;
     border: 9px solid #003ca2;
+	border-right: 9px solid #003ca2;
     background-color: white;
     overflow: hidden;
 }
 #schoolSect {
-    width: 45%;
+    width: 47%;
     height: 215px;
     position: relative;
-    border: 9px solid #003ca2;
+    border-bottom: 9px solid #003ca2;
     float: left;
     background-color: white;
     overflow: hidden;
@@ -688,8 +912,8 @@ div.teamDivs {
         border: 3px solid #616265;
         border-radius: 10px;
         margin-top: 14px;
-    }
-.active-teamSections, div.teamDivs:hover {
+}
+div.active-teamSections, div.teamDivs:hover {
         background: #003074;
 }
 .hide {
@@ -725,8 +949,8 @@ div.teamDivs {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 }
-.displays {
-    height: 600px;
+.people-displays {
+    height: 1500px;
     width: 100%;
 }
 .generalTeam {
@@ -994,7 +1218,7 @@ div.teamDivs {
 }
 #robot-16 {
     width: 100%;
-    height: 600px;
+    height: 520px;
 }
 .robotHead {
     width: 100%;
@@ -1009,12 +1233,20 @@ div.teamDivs {
     padding-top: 35px;
     letter-spacing: 5px;
 }
+.robotWriteups {
+	width: 80%;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+	margin-left: 10%;
+	padding-top: 40px;
+	text-align: center;
+}
 /********************************
 ****    Sponsors Page
 ********************************/
 #sponsorsGrat {
     width: 100%;
-    height: 2300px;
+    height: 1800px;
 }
 #sponsorBanner {
     background-color: #616265;
@@ -1031,7 +1263,7 @@ div.teamDivs {
 }
 #sponsorShowcase {
     width: 57%;
-    height: 2100px;
+    height: 1700px;
     display: inline-block;
 }
 .sponsorDiv {
@@ -1059,7 +1291,8 @@ div.teamDivs {
     height: 200px;
 }
 .sponsor-image4 {
-    width: 100%;
+    margin-top: 60px;
+	width: 100%;
     height: 100px;
 }
 .sponsor-image5 {
@@ -1084,7 +1317,7 @@ div.teamDivs {
 }
 .sponsorSide {
     width: 200px;
-    height: 2000px;
+    height: 1600px;
     background-color: #003ca2;
     float: left;
     display: inline-block;
@@ -1092,7 +1325,7 @@ div.teamDivs {
 }
 .sponsorSide2 {
     width: 200px;
-    height: 2000px;
+    height: 1600px;
     background-color: #003ca2;
     float: right;
     display: inline-block;
@@ -1141,23 +1374,173 @@ div.teamDivs {
     padding-top: 35px;
     letter-spacing: 5px;
 }
+.aboutFirst {
+	width: 100%;
+	height: 800px;
+}
+#firstSummary {
+	width: 60%;
+	height: 250px;
+	margin-top: 20px;
+	border: 3px solid #003ca2;
+	display: inline-block;
+	float: left;
+}
+#firstSummary-head {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+	color: #1c1c1c;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: 600;
+}
+#firstSummary-body {
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+#firstCompetitions-body {
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+	font-weight: 400;
+}
+#firstMission {
+	width: 60%;
+	height: 265px;
+	margin-top: 20px;
+	border: 3px solid #003ca2;
+	display: inline-block;
+	float: left;
+}
+#firstMission-head {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+	font-weight: 700;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#firstMission-body {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#firstVision-head {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+	font-weight: 700;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#firstVision-body {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#ourFirstexperience {
+	width: 60%;
+	height: 150px;
+	margin-top: 20px;
+	border: 3px solid #003ca2;
+	display: inline-block;
+	float: left;
+}
+#ourFirst-head {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+	color: #1c1c1c;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: 600;
+}
+#ourFirst-body {
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+#moreOnFirst {
+	width: 37%;
+	height: 717px;
+	margin-top: 20px;
+	margin-left: 16px;
+	border: 3px solid #003ca2;
+	display: inline-block;
+}
+#additionalFirst-head {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+	font-weight: 700;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.additionalFirst-headz {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+	font-weight: 600;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+#first-leadershipList {
+	list-style-type: square;
+}
+.first-leadershipList-item {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+#first-globalReachList {
+	list-style-type: square;
+}
+.first-globalReachList-item {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+#additionalFirst-source {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+	font-weight: 600;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+#first-programsList {
+	list-style-type: square;
+}
+.first-programsList-item {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+	margin-left: 70px;
+	margin-top: 10px;
+}
 /********************************
 ****    Resource Page
 ********************************/
 .resourceBody {
     width: 100%;
-    height: 500px;
+    height: 400px;
+	padding-top: 50px;
 }
 #mediaResource {
 	width: 49%;
-	height: 300px;
+	height: 280px;
 	border: 3px solid #003ca2;
 	float: left;
 	display: inline-block;
 }
 #toolsResource {
 	width: 49%;
-	height: 300px;
+	height: 280px;
 	border: 3px solid #003ca2;
 	float: left;
 	display: inline-block;
@@ -1180,11 +1563,11 @@ div.teamDivs {
 	width: 100%;
 	text-align: center;
 }
-.twitter-follow-button {
+#twitter-resource {
 	padding-top: 40px;
 	width: 100%;
 	text-align: center;
-	margin-left: 25%;
+	margin-left: 1%;
 }
 #sourceforgeResource {
 	padding-top: 15px;
@@ -1198,3 +1581,16 @@ div.teamDivs {
 	margin-left: 30%;
 	height: 110px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
